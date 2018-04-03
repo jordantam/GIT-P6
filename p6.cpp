@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	int a, b, c, d;
+	int a, b, c, ans;
 
 	cout << "insert number 1:" << endl;
 	cin >> a;
@@ -11,6 +11,7 @@ int main() {
 	cin >> b;
 	cout <<"insert number 3:" << endl;
 	cin >>c;
+
 	d = a * b * c;
 
 	cout << a<<endl;
