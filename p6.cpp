@@ -13,6 +13,9 @@ int main() {
 	cin >>c;
 	ans = a * b * c;
 
+	cout << a <<endl;
+	cout << b <<endl;
+	cout << c <<endl;
 	cout <<"Number 1 * Number 2 * Number 3 = " << ans << endl;
 
 	system("pause");
