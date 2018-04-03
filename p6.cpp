@@ -11,9 +11,13 @@ int main() {
 	cin >> b;
 	cout <<"insert number 3:" << endl;
 	cin >>c;
-	ans = a * b * c;
-	
-	cout <<"Number 1 * Number 2 * Number 3 = " << ans << endl;
+
+	d = a * b * c;
+
+	cout << a<<endl;
+	cout <<b <<endl;
+	cout <<c <<endl;
+	cout <<"Number 1 * Number 2 * Number 3 = " << d << endl;
 
 	system("pause");
 }
